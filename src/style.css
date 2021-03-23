@@ -1,0 +1,30 @@
+h1, p {
+  font-family: Lato;
+}
+.col-lg-8 .jumbotron{
+  min-height: 350px;
+}
+.card-footer{
+  text-align: right;
+}
+.card-holder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fade.alert.alert-success.show {
+    position: fixed;
+    top: 0;
+    left: 40%;
+}
+.fade.alert.alert-danger.show {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.jumbotron {
+    padding: 2rem 2rem;
+}
+.card.border-primary {
+    margin: 10px 10px;
+}
